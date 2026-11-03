@@ -13,8 +13,8 @@ public class Calculadora {
         var value2 = scanner.nextInt();
         System.out.println("Informe a operação (+,-,* ou /)");
         var oper = scanner.next();
-        System.out.println(value1 + oper + value2 + " = " + (value1 + value2));
-        
+        //System.out.println(value1 + oper + value2 + " = " + (value1 + value2));
+        System.out.PrintStream("O número %s %s o número %s é igual à: ", value1, oper, value2);
 }
  
 }
