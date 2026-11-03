@@ -12,7 +12,7 @@ public class Calculadora {
         System.out.println("Informe o segundo número: ");
         var value2 = scanner.nextInt();
         System.out.println("Informe a operação (+,-,* ou /)");
-        var oper = scanner.nextInt();
+        var oper = scanner.next();
         System.out.println(value1 + oper + value2 + " = " + (value1 + value2));
         
 }
