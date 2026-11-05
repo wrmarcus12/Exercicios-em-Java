@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculadora {
     
-    
+    // Somar é fácil, agora preciso acrescentar a opção de escolher a operação. 
     public static void main(String[] args) {
         var scanner = new Scanner(System.in);
         System.out.println("Informe o primeiro número: ");

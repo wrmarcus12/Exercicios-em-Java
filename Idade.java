@@ -10,7 +10,5 @@ public class Idade {
     System.out.println("Informe a sua Idade: ");
     var ida = scanner.nextInt();
     System.out.printf("Olá, %s você tem %s anos. \n", nome, ida);
-
-
      }
 }
