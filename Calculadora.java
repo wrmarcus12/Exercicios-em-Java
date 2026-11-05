@@ -14,7 +14,7 @@ public class Calculadora {
         System.out.println("Informe a operação (+,-,* ou /)");
         var oper = scanner.next();
         //System.out.println(value1 + oper + value2 + " = " + (value1 + value2));
-        System.out.PrintStream("O número %s %s o número %s é igual à: ", value1, oper, value2);
+        System.out.printf("O número %s %s o número %s é igual à: ", value1, oper, value2);
 }
  
 }

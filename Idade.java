@@ -1,7 +1,6 @@
 // Recebe o nome e o ano de nascimento de alguem e imprime: "Olá, "fulano", você tem "X" anos".
 import java.util.Scanner;
 
-
 public class Idade {
     public static void main(String[] args) {
     
